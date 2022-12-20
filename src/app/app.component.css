@@ -1,0 +1,21 @@
+.container{
+  width: 640px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  background-color: rgb(232, 229, 225);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.user_div{
+  display: flex;
+  margin: 5px 0px;
+}
+.user_name{
+  width: 80%;
+  padding: 10px 30px;
+  background-color: #eee;
+}
+.user_status{
+  width: 20%;
+  padding: 10px 40px;
+  background-color: #fadbd8;
+}

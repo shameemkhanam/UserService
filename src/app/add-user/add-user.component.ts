@@ -8,15 +8,13 @@ import { UserService } from '../Services/user.service';
   // providers: [UserService]
 })
 export class AddUserComponent {
-  username: string = "";
-  status: string = "active";
+  username: string = '';
+  status: string = 'active';
 
-  constructor(private userservice: UserService) {
-    
-  }
+  constructor(private userservice: UserService) {}
 
   addUser() {
     this.userservice.addNewUser(this.username, this.status);
-    console.log(this.userservice.users);
+    // console.log(this.userservice.users);
   }
 }
